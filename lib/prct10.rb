@@ -1,0 +1,6 @@
+require "prct10/version"
+require "prct10/preguntas"
+require "prct10/lista_doblemente_enlazada"
+require "prct10/examen"
+require "prct10/interfaz"
+require "prct10/quiz"
