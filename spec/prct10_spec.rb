@@ -4,12 +4,13 @@ require 'prct10'
 describe Prct10 do
   describe Prct10::Quiz do
 		  before :each do
-		    @quiz = Prct10::Quiz.new("Cuestionario de PFS 10/12/2011") do |e|
-			e.questions 'En que anyo Cristobal Colon descubrio America',
-			  e.wrong =>'1942',
-			  e.right =>'1492',
-			  e.wrong =>'1808',
-			  e.wrong =>'1914'
+		    @quiz = Prct10::Quiz.new("Cuestionario de PFS 10/12/2011") do 
+			  pregunta 'En que anyo Cristobal Colon descubrio America', 
+			  :wrong =>'1942',
+			  :right =>'1492',
+			  :wrong =>'1808',
+			  :wrong =>'1914'
+			  pregunta  "Noodles", :right => "1 cup"
 		    end
 		  end
 		  context "La clase Quiz contiene los siguientes metodos" do
