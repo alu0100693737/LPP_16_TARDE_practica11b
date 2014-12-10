@@ -62,21 +62,7 @@ module Prct10
   end
 end
 
-quiz = Prct10::Quiz.new("Cuestionario de LPP 05/12/2014") {
-pregunta 'Cuantos argumentos de tipo bloque puede recibir un metodo?',
-:right => '1',
-:wrong => []
-wrong '2'
-wrong 'muchos'
-wrong 'los que defina el usuario'
 
-pregunta 'En Ruby los bloque son objetos que continen codigo',
-:right=>'Falso',
-:wrong => []
-wrong 'Cierto'
-
-}
-puts quiz.to_s
 
 
 #   def respuesta(text, options = {})
