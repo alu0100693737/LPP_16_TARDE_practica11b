@@ -33,7 +33,7 @@ describe Prct10 do
 			expect(@quiz).to respond_to :to_s
 		      end
 		      it "metodo pregunta" do
-			expect(@quiz.to_s).to match('1492')
+			expect(@quiz.to_s).to match('En Ruby los bloque son objetos que continen codigo')
 		      end
 		  end
   end
